@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the snapshot 1`] = `
+<div
+  className="counter"
+>
+  <div
+    className="counter__step"
+  >
+    <label
+      htmlFor="step-input"
+    >
+      Current Step value
+    </label>
+    <input
+      className="counter__input"
+      id="step-input"
+      onChange={[Function]}
+      type="text"
+      value={1}
+    />
+  </div>
+  <div
+    className="counter__buttons"
+  >
+    <button
+      className="counter__button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      className="counter__button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <button
+      className="counter__button"
+      onClick={[Function]}
+    >
+      Reset
+    </button>
+  </div>
+  <div
+    className="counter__buttons"
+  >
+    <div
+      className="value"
+    >
+      Counter Value: 
+      0
+    </div>
+  </div>
+</div>
+`;
